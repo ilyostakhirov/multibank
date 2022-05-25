@@ -24,7 +24,10 @@
         </div>
       </router-link>
     </div>
-    <p>Уже зарегестрированы? <a class="green-text" href="#">Войти</a></p>
+    <p>
+      Уже зарегестрированы?
+      <router-link to="/" class="green-text">Войти</router-link>
+    </p>
   </div>
 </template>
 

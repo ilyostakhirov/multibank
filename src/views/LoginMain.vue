@@ -68,7 +68,9 @@
     </div>
     <p>
       Впервые на multibank?
-      <a class="green-text" href="#">Зарегистрируйтесь бесплатно</a>
+      <router-link to="/register" class="green-text"
+        >Зарегистрируйтесь бесплатно</router-link
+      >
     </p>
   </div>
 </template>
